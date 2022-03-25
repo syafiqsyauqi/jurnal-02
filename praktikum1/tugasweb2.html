@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tugas Web 2</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+	<style>
+		* {
+			padding: 0;
+			margin: 0;
+			font-family: sans-serif;
+		}
+		a {
+			color: inherit;
+			text-decoration: none;
+		}
+		.medsos {
+			padding: 5px;
+			background-color: #098BA4;
+		}
+		.medsos ul li{
+			display: inline-block;
+			color: #fff;
+			margin-right: 10px;
+		}
+		.container {
+			width: 80%;
+			margin:0 auto;
+		}
+		.container:after{
+			content: '';
+			display: block;
+			clear: both;
+		}
+		header h1 {
+			float: left;
+			padding: 15px 0;
+			color: #098BA4;
+		}
+		header ul {
+			float: right;
+
+		}
+		header ul li{
+			display: inline-block;
+		}
+		header ul li a{
+			padding: 25px 20px;
+			display: inline-block;
+
+		}
+		header ul li a:hover {
+			background-color: #098BA4;
+			color: #fff;
+		}
+		.active {
+			background-color: #098BA4;
+			color: #fff;
+		}
+		.baground {
+			height: 60vh;
+			background-image: url(bg2.jpg);
+			background-size: cover;
+			position: relative;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.baground h2 {
+			color: #fff;
+			padding: 20px 25px;
+			border: 3px solid #fff;
+		}
+		img {
+			height: 150px;
+			width: 150px;
+			border-radius: 50%;
+			align-items: center;
+			position: relative;
+		}
+		section {
+			padding: 50px 0;
+		}
+		section h3 {
+			text-align: center;
+			padding: 20px 0;
+			color: #098BA4;
+		}
+		.Pendidikan ul li{
+			display: inline-block;
+			margin-right: 50%;
+			align-items: inherit;
+		}
+		footer h3 {
+			text-align: center;
+			padding: 20px 0;
+			color: #098BA4;
+		}
+	</style>
+</head>
+<body>
+	<div class="medsos">
+		<div class="container">
+			<ul>
+				<li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></li>
+				<li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></li>
+				<li><a href="mailto:https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"><i class="fa-brands fa-chrome"></i></li>	
+			</ul>
+
+		</div>
+	</div>
+	<header>
+		<div class="container">
+			 <h1><a href="tugasweb2.html"><img src="profil.jpeg"></h1>
+			 <ul>
+			 	<li class="active"><a href="tugasweb2.html">HOME</li>
+			 	<li><a href="about.html">ABOUT/BASIC INFO</li>
+			 	<li><a href="service.html">PENDIDIKAN</li>
+			 	<li><a href="contact.html">CONTACT</li>	
+			 </ul>
+		 </div>	
+	</header>
+	<section class="baground">
+		<h2>WELCOME TO MY WEBSITE</h2>
+	</section>
+	<!--about-->
+	<section class="about">
+		<div class="container">
+			<h3>ABOUT</h3>
+			<p>Hello! Namaku muhammad syafiq syauqi ramadhan,aku adalah mahasiswa Telkom university prodi Ilmu Terapan Jurusan D3 Rekayasa Prangkat Lunak Aplikasi.</p>
+			<br><br><br><br>
+			<h3>BASIC INFORMATION</h3>
+			<table border="1" width="100%">
+				<tr>
+					<th>NAMA:</th>
+					<th>Muhammad syafiq syauqi ramadhan</th>
+				</tr>
+				<tr>
+					<th>EMAIL:</th>
+					<th><a href="mailto:https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">syafiqsyauqi476@gmail.com</a></th>
+				</tr>
+				<tr>
+					<th>PHONE:</th>
+					<th>+6281383450980</th>
+				</tr>
+				<tr>
+					<th>ADRESS:</th>
+					<th>Perumahan Griya Telaga Permai Blok D3/2 RT.10 RW.19, Tapos Depok,JL.Raya Bogor,Jawa Barat</th>
+				</tr>
+				<tr>
+					<th><b>LANGUAGE:</b></th>
+					<th>Indonesia</th>
+				</tr>
+			</table>	
+		</div>
+	</section>
+	<!--pendidikan-->
+	<section class="Pendidikan">
+		<div class="container">
+			<h3>PENDIDIKAN</h3>
+			<table width="50%" style="border-collapse: collapse;">
+				<tr>
+					<th><img src="sd.png"></th>
+					<th><small>Sekolah Dasar : Sekolah Komunitas Kebon Main (SKKM)</small></th>
+				</tr>
+				<tr>
+					<th><a href="https://www.madinatulqurandepok.com/smp/"></a><img src="smp.png"></th>
+					<th><small></a>SMP : SMPTQT Madinatul Qur'an</small></th>
+				</tr>
+				<tr>
+					<th><img src="sma.png"></th>
+					<th><small></a>SMA : SMAIT As-Syifa Boarding School</small></th>
+				</tr>
+				<tr>
+					<th><img src="univ.png"></th>
+					<th><small>Telkom University</small></th>
+				</tr>
+			</table>	
+		</div>	
+	</section>
+	<!--contact-->
+	<footer>
+		<div class="container">
+			<h3>CONTACT</h3>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2040.364814335934!2d106.8581267376949!3d-6.45058087283355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ea648298da9b%3A0xdc279fcc15f8c23e!2sJl.%20Danau%20Sentani%2C%20Cilangkap%2C%20Kec.%20Tapos%2C%20Kota%20Depok%2C%20Jawa%20Barat%2016458!5e0!3m2!1sid!2sid!4v1646493593595!5m2!1sid!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		</div>
+	</footer>
+
+</body>
+</html>
